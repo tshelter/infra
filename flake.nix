@@ -13,6 +13,7 @@
       specialArgs = attrs;
       modules = [
         ./hosts/inf/configuration.nix
+        ./plugins/common.nix
         comin.nixosModules.comin
         ({...}: {
           services.comin = {
