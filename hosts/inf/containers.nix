@@ -1,5 +1,4 @@
 { ... }: {
-{
   virtualisation.oci-containers = {
     enable = true;
     containers = {
