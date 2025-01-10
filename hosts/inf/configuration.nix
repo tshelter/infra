@@ -1,6 +1,7 @@
 { ... }: {
   imports = [
-    ./hardware-configuration.nix   
+    ./hardware-configuration.nix
+    ./containers.nix
   ];
 
   boot.tmp.cleanOnBoot = true;
