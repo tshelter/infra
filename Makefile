@@ -1,3 +1,3 @@
-eval:
-	nix eval .#nixosConfigurations.inf
+dry-build:
+	nixos-rebuild dry-build --flake .#inf
 
