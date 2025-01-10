@@ -1,6 +1,5 @@
 { ... }: {
   virtualisation.oci-containers = {
-    enable = true;
     containers = {
       nginx = {
         image = "nginx:latest";
