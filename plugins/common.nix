@@ -1,5 +1,8 @@
 { pkgs, lib, ... }: 
 {
+  environment.interactiveShellInit = ''
+    PS1="${PS1:2}"
+  '';
   environment.systemPackages = with pkgs; [
     htop
     neofetch
