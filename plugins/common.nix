@@ -3,6 +3,7 @@
   environment.interactiveShellInit = ''
     PS1="''${PS1:2}"
   '';
+  environment.etc.hosts.mode = "0644";
   environment.systemPackages = with pkgs; [
     htop
     neofetch
