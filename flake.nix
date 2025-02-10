@@ -14,6 +14,7 @@
       modules = [
         ./hosts/inf/configuration.nix
         ./plugins/common.nix
+        ./plugins/monitoring.nix
         comin.nixosModules.comin
         ({...}: {
           services.comin = {
