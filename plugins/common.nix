@@ -30,7 +30,7 @@
     iotop
     iftop
     tmux
-    iperf3
+    iperf
   ];
 }
 
