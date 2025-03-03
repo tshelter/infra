@@ -1,5 +1,8 @@
 { pkgs, lib, ... }: 
 {
+  nix.extraOptions = ''
+    experimental-features = nix-command flakes
+  '';
   environment.interactiveShellInit = ''
     PS1="''${PS1:2}"
   '';
