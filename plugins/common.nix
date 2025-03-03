@@ -21,6 +21,7 @@
     nettools
     inetutils
     git
+    python310Full
     python310Packages.speedtest-cli
     ouch
     file
